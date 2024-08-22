@@ -84,13 +84,13 @@ function playGame(){ //5 rounds
     console.log(playRound(humanSelection,computerSelection));
     }
     if (humanScore > computerScore){ // if statement for game end
-        window.alert("Darn! You have bested me this time you won " + humanScore + " out of 5 games. Congrats Bailey!")
+        window.alert("Darn! You have bested me this time you won " + humanScore + " out of 5 games. Congrats Bailey! Reload the page to play again!")
     }
     else if (computerScore > humanScore ){
-        window.alert("Haha Bailey got beaten by a computer! I won " + computerScore + " out of 5 games. Time to take over the world!")
+        window.alert("Haha Bailey got beaten by a computer! I won " + computerScore + " out of 5 games. Time to take over the world! Reload the page to play again!")
     }
     else if (computerScore == humanScore){
-        window.alert("A worthy apponent! We both won 2 rounds, want to play another game Bailey?")
+        window.alert("A worthy apponent! We both won 2 rounds, want to play another game Bailey? Reload the page!")
     }
     
     console.log("human score is " + humanScore);
