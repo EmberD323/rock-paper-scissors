@@ -90,7 +90,7 @@ function playGame(){ //5 rounds
         window.alert("Haha Bailey got beaten by a computer! I won " + computerScore + " out of 5 games. Time to take over the world!")
     }
     else if (computerScore == humanScore){
-        window.alert("A worth apponent! We both won 2 rounds, want to play another game Bailey?")
+        window.alert("A worthy apponent! We both won 2 rounds, want to play another game Bailey?")
     }
     
     console.log("human score is " + humanScore);
